@@ -1,0 +1,10 @@
+.about-section{
+    background-color: black;
+    color: white;
+    border: 4px black solid;
+}
+body{
+    background-color: black;
+    color: black;
+    background-image: url(./IMAGE/Multicolor-07-2.3.001-bigpicture_07_8.jpg);
+}

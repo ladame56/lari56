@@ -1,0 +1,58 @@
+.box{
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    border: 1px black solid;
+    padding: 50px 50px;
+    margin: 150px;
+    background-color: rgb(113, 113, 209);
+}
+.card{
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25),
+-5px -5px 30px rgba(0,0,0,0.22);
+cursor:pointer;
+transition: 0.4s;
+border: 1px red;
+background-color: blue;
+}
+.card:hover {
+    transform: scale(0.9,0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25),
+    -5px -5px 30px 15px rgba(0,0,0,0.22)
+}
+.container{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+/*
+.card{
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25),
+    -5px -5px 30px 7px rgba(0,0,0,0.22);
+    transition: 0.4s;
+}
+*/
+body{
+    background-color: black;
+}
+
+
